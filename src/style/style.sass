@@ -1,0 +1,196 @@
+@use '/src/style/font.sass'
+@use '/src/style/shapes.sass'
+@use '/src/style/viewport.sass'
+@use '/src/style/footer.sass'
+
+
+body
+    font-family: 'Raleway', sans-serif
+    font-size: 18px
+    line-height: 1.5
+
+section
+    min-height: 100vh
+    display: flex
+    position: relative
+    font-family: 'Londrina Solid', cursive
+   
+.section-pad
+    padding-left: 5vw
+    padding-right: 5vw
+
+.container
+    max-width: 810px
+    margin: auto
+    color: #fff
+   
+
+.logo
+    display: block
+    text-align: center
+    margin-bottom: 32px
+    max-width: 112px
+    margin-left: auto
+    margin-right: auto
+
+.logo img
+    width: 100%
+     
+.intro
+    background-image: url('/assets/shows.jpg')
+  
+
+.bg-cover
+    background-size: cover
+    background-position: center
+    background-repeat: no-repeat
+
+.intro p 
+    font-size: 26px
+    line-height: 1.2
+    color: #ffff
+    font-family: 'Yanone Kaffeesatz', sans-serif
+    
+
+
+@keyframes fadeIn
+    0%
+        opacity: 0
+        transoform: translateY(20px)
+    50%
+        transform: translate(0)
+    100%
+        opacity: 1
+
+.appear
+    // here we set the opacity a starting point
+    opacity: 0
+    // here we include the animation name
+    animation-name: fadeIn
+    // set a duration and delay
+    animation-duration: 3s
+    animation-delay: 1s
+    // make sure the end state stays the same
+    animation-fill-mode: forwards
+
+.marquee 
+    position: absolute
+    top: 3vh
+    left: 0 
+    width: 100%
+    font-size: 5vw
+    font-family: 'Londrina Solid', cursive
+    line-height: 1
+    overflow: hidden
+   
+
+@keyframes moveleft
+    0%
+        transform: translateX(0)
+
+    100%
+        transform: translateX(-3000vw)
+
+
+.marquee span
+    animation: moveleft 120s infinite
+    // this ensures the text will stay on the sae linne
+    white-space: nowrap
+    // our span is inline by default, so here we tell it to be block
+    display: block
+    // this will let us add our animation
+    position: relative
+
+.mix-difference
+    mix-blend-mode: difference
+
+
+.day-1
+    background-color: #B0C4DE
+    background-size:cover
+    background-position: center
+    
+
+.day-2
+    background-color:#8DA399 
+    background-size:cover
+    background-position: center
+
+.day-3
+    background-image: url('/assets/fans.jpg')
+    background-position: center bottom
+    background-size: cover
+    color: beige
+
+.day-3 .blck
+    color: #8DA399 
+
+.n1 
+    color: black
+
+.date
+    font-family: 'Koulen', cursive
+    font-size: 28px
+    color: #FFEECF
+    margin-bottom: 48px
+    line-height: 1
+
+.day
+    text-align: center
+    overflow: hidden
+
+.day .container   
+     position: relative
+     z-index: 2
+
+.lunch-medium
+    font-family: 'Koulen', cursive
+
+.lineup h2
+    font-size: 56px
+    line-height: 1
+    margin-bottom: 6px
+
+.lineup li
+    margin-bottom: 24px
+
+.scroll-to
+    position: absolute
+    left: 50%
+    bottom: 3vh
+
+    width: 64px
+    height: 32px
+
+    background-image: url('/assets/down-arrow.svg')
+    background-repeat: no-repeat
+    background-size: contain
+    background-position: center
+    transform: translateX(-50%)
+
+.scroll-to-intro
+    background-image: url('/assets/down-arrow-light.svg')
+
+@media (max-width: 640px)
+
+    .marquee
+        position: relative
+        top: auto
+        left: auto
+        width: 90vw
+        margin-bottom: 24px
+
+
+    .logo 
+        max-width: 64px
+        margin-bottom: 24px
+
+    .intro p
+        font-size: 20px
+
+    .scroll-to
+        display: none
+
+    .lineup h2
+        font-size: 30px
+        
