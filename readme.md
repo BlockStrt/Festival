@@ -148,7 +148,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information. -->
 
 Your Name - [@BlckStrtr](https://twitter.com/BlckStrtr) - blockstater34@gmail.com
 
-Project Link: [https://github.com/BlockStrt/Festival](https://golden-chebakia-4b3bed.netlify.app/)
+Project Link: [Festival Newsletter](https://golden-chebakia-4b3bed.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
