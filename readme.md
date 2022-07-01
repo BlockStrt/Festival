@@ -146,7 +146,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information. -->
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@blockstrtr](https://twitter.com/blockstrtr) - blockstater34@gmail.com
+Your Name - [@BlckStrtr](https://twitter.com/BlckStrtr) - blockstater34@gmail.com
 
 Project Link: [https://github.com/BlockStrt/Festival](https://golden-chebakia-4b3bed.netlify.app/)
 
