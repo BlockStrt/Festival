@@ -100,7 +100,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Visit ...
+Visit https://golden-chebakia-4b3bed.netlify.app/
 
 
 <!-- USAGE EXAMPLES -->
@@ -146,9 +146,9 @@ Distributed under the MIT License. See `LICENSE.txt` for more information. -->
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/blockstrtr) - blockstater34@gmail.com
+Your Name - [@blockstrtr](https://twitter.com/blockstrtr) - blockstater34@gmail.com
 
-Project Link: [https://github.com/BlockStrt/Festival](https://github.com/BlockStrt/Festival)
+Project Link: [https://github.com/BlockStrt/Festival](https://golden-chebakia-4b3bed.netlify.app/)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
