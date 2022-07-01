@@ -100,7 +100,7 @@
 <!-- GETTING STARTED -->
 ## Getting Started
 
-Visit https://golden-chebakia-4b3bed.netlify.app/
+Visit [Festival Newsletter](https://golden-chebakia-4b3bed.netlify.app/)
 
 
 <!-- USAGE EXAMPLES -->
